@@ -752,3 +752,52 @@ h6 {
         font-size: 2rem;
     }
 }
+
+
+/* background for bread crumb */
+.breadcrumb {
+    background-image: url("./img/Malingano_Jasper.jpeg");
+    /* change image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Optional dark overlay */
+.breadcrumb::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0.9;
+}
+
+.breadcrumb-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.breadcrumb-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb-content nav {
+    font-size: 16px;
+}
+
+.breadcrumb-content nav a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.breadcrumb-content nav span {
+    margin: 0 5px;
+}
