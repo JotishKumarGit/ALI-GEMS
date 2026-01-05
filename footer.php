@@ -1,128 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALI GEMS - Premium Gems & Jewellery</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
-
-</head>
-
-<body>
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <i class="fas fa-phone"></i> <a href="tel:9057449855">9057449855</a> |
-                    <i class="fas fa-envelope"></i> <a
-                        href="mailto:FARMANANSARIII8877@GMAIL.COM">FARMANANSARIII8877@GMAIL.COM</a>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <i class="fas fa-map-marker-alt"></i> Jaipur, Rajasthan, India
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="assets/img/ali_gems_logo.jpeg" height="60px"
-                    width="100%" alt=""></a>
-            <a class="navbar-brand" href="index.html">ALI GEMS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Breadcrumb Section -->
-    <section class="breadcrumb">
-        <div class="breadcrumb-content">
-            <h1>Blog</h1>
-            <nav>
-                <a href="#">Pages</a> <span>/</span> <span>Blog</span>
-            </nav>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="blog-section">
-        <div class="container">
-            <div class="text-center mb-5">
-                <h2 class="section-title">Latest News & Updates</h2>
-                <p class="lead text-muted">Stay Updated with Gemstone Industry Trends</p>
-            </div>
-            <div class="row g-4">
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="assets/img/blog_1.webp" height="250px" width="100%" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-date"><i class="far fa-calendar"></i> December 15, 2024</div>
-                            <h4 class="blog-title">The Art of Gemstone Selection</h4>
-                            <p class="text-muted">Learn how to choose the perfect gemstone for your needs with our
-                                expert guide.</p>
-                            <a href="#" class="btn-view">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="assets/img/blog_2.png" height="250px" width="100%" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-date"><i class="far fa-calendar"></i> December 10, 2024</div>
-                            <h4 class="blog-title">Global Gemstone Market Trends</h4>
-                            <p class="text-muted">Discover the latest trends shaping the international gemstone
-                                industry.</p>
-                            <a href="#" class="btn-view">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-card">
-                        <div class="blog-image">
-                            <img src="assets/img/Tanzanite_(polki).jpeg" height="250px" width="100%" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-date"><i class="far fa-calendar"></i> December 5, 2024</div>
-                            <h4 class="blog-title">Understanding Gemstone Certification</h4>
-                            <p class="text-muted">Everything you need to know about gemstone authenticity and
-                                certification.</p>
-                            <a href="#" class="btn-view">Read More</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+  <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row g-4">
@@ -140,20 +16,20 @@
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h5>Quick Links</h5>
-                    <a href="#home">Home</a>
-                    <a href="#about">About Us</a>
-                    <a href="#products">Products</a>
-                    <a href="#services">Services</a>
-                    <a href="#gallery">Gallery</a>
+                    <a href="index.php">Home</a>
+                    <a href="about.php">About Us</a>
+                    <a href="products.php">Products</a>
+                    <a href="services.php">Services</a>
+                    <a href="gallery.php">Gallery</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5>Our Products</h5>
-                    <a href="#">Tourmaline Cabochon</a>
-                    <a href="#">Tanzanite Cabochon</a>
-                    <a href="#">Tanzanite Polki</a>
-                    <a href="#">Malingano Jasper</a>
-                    <a href="#">Aquamarine</a>
-                    <a href="#">Doublet Opal</a>
+                    <a href="Tourmaline_Cabochon.php">Tourmaline Cabochon</a>
+                    <a href="Tanzanite_Cabochon.php">Tanzanite Cabochon</a>
+                    <a href="Tanzanite_Polki.php">Tanzanite Polki</a>
+                    <a href="Malingano_Jasper.php">Malingano Jasper</a>
+                    <a href="Aquamarine.php">Aquamarine</a>
+                    <a href="Doublet_Opal.php">Doublet Opal</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5>Contact Us</h5>
@@ -174,7 +50,7 @@
 
     <!-- script for contact us  -->
     <script>
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
 
             const name = document.getElementById('name').value;
@@ -186,7 +62,7 @@
             // Check if any of the fields are empty
             if (!name || !email || !phone || !message) {
                 alert("Please fill all the fields");
-                return;  // Exit the function if any field is empty
+                return; // Exit the function if any field is empty
             }
 
 
@@ -249,7 +125,7 @@
 
     <!-- script for sending enquiry email -->
     <script>
-        document.getElementById('sendEmailButton').addEventListener('click', function (e) {
+        document.getElementById('sendEmailButton').addEventListener('click', function(e) {
             e.preventDefault();
 
             const name = document.getElementById('name').value;
@@ -261,7 +137,7 @@
             // Check if any of the fields are empty
             if (!name || !email || !phone || !subject || !message) {
                 alert("Please fill all the fields");
-                return;  // Exit the function if any field is empty
+                return; // Exit the function if any field is empty
             }
 
             const mailtoLink = `mailto:FARMANANSARIII8877@GMAIL.COM?subject=${encodeURIComponent(subject)}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(phone)}%0AMessage: ${encodeURIComponent(message)}`;
@@ -272,7 +148,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
         // Navbar scroll effect
-        window.addEventListener('scroll', function () {
+        window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
                 navbar.classList.add('scrolled');
@@ -283,7 +159,7 @@
 
         // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
                 if (target) {
@@ -301,7 +177,7 @@
             rootMargin: '0px 0px -50px 0px'
         };
 
-        const observer = new IntersectionObserver(function (entries) {
+        const observer = new IntersectionObserver(function(entries) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.style.opacity = '1';
